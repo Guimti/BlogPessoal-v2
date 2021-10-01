@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://www.luxuryandexpensive.de/pic2/Koenigsegg-Jesko-Build-Slot-konfigurierbar-als-Absolut-Bilder.44580_4.jpg');
+  
+    min-height: 660px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
