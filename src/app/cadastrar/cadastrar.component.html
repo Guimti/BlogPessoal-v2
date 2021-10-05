@@ -1,50 +1,50 @@
-<div class="container-fluid">
+<div class="container-fluid corfundo"  >
 
-    <div class="row">
+    <div class="row" >
   
       <div class="col-md-6" id='img-bg'></div>
   
-      <div class="col-md-6 mt-5 mb-5">
+      <div class="col-md-6 mt-5 mb-5" id="corfundo">
   
         <div class="row d-flex justify-content-center">
           <div class="col-md-10">
   
-            <h1 class="text-center">Cadastro</h1>
+            <h1 class="text-center corfundol shadow p-3 mb-5 rounded ">Cadastro</h1>
   
             <div class="form-group">
-              <label for="nome">Nome</label>
-              <input [(ngModel)]='user.nome' class="form-control"
+              <label  for="nome">Nome</label>
+              <input [(ngModel)]='user.nome' class="form-control corfundol border border-dark"
                type="text" name="nome" id="nome" placeholder="Seu nome">
             </div>
             <br>
             <div class="form-group">
               <label for="usuario">Usuário</label>
-              <input [(ngModel)]='user.usuario' class="form-control" type="text" name="usuario"
+              <input [(ngModel)]='user.usuario' class="form-control corfundol border border-dark" type="text" name="usuario"
                id="usuario" placeholder="Seu usuário">
             </div>
             <br>
             <div class="form-group">
               <label for="foto">Link da Foto</label>
-              <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto"
+              <input [(ngModel)]='user.foto' class="form-control corfundol border border-dark" type="text" name="foto" id="foto"
                placeholder="Link da sua foto">
             </div>
             <br>
             <div class="form-group">
               <label for="senha">Senha</label>
-              <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha"
+              <input (input)='confirmSenha($event)' class="form-control corfundol border border-dark" type="password" name="senha"
                id="senha" placeholder="Sua senha">
             </div>
             <br>
             <div class="form-group">
               <label for="confirmSenha">Confirmar Senha</label>
-              <input [(ngModel)]='user.senha' class="form-control" type="password"
+              <input [(ngModel)]='user.senha' class="form-control corfundol border border-dark" type="password"
                name="confirmSenha" id="confirmSenha"
                 placeholder="Confirme sua senha">
             </div>
-  
+            <br>
              <div class="form-group">
               <label for="tipo">Tipo de Usuário</label>
-              <select class="form-control" name="tipo" id="tipo" (change)='tipoUser($event)'>
+              <select class="form-control corfundol border border-dark" name="tipo" id="tipo" (change)='tipoUser($event)'>
                 <option>Selecione um tipo de usuário:</option>
                 <option value="normal">Normal</option>
                 <option value="adm">Administrador</option>
