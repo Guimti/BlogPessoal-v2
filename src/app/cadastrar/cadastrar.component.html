@@ -13,31 +13,31 @@
   
             <div class="form-group">
               <label  for="nome">Nome</label>
-              <input [(ngModel)]='user.nome' class="form-control corfundol border border-dark"
+              <input [(ngModel)]='user.nome' class="form-control corfundol shadow mb-0 rounded border border-dark"
                type="text" name="nome" id="nome" placeholder="Seu nome">
             </div>
             <br>
             <div class="form-group">
               <label for="usuario">Usuário</label>
-              <input [(ngModel)]='user.usuario' class="form-control corfundol border border-dark" type="text" name="usuario"
+              <input [(ngModel)]='user.usuario' class="form-control corfundol shadow mb-0 rounded border border-dark" type="text" name="usuario"
                id="usuario" placeholder="Seu usuário">
             </div>
             <br>
             <div class="form-group">
               <label for="foto">Link da Foto</label>
-              <input [(ngModel)]='user.foto' class="form-control corfundol border border-dark" type="text" name="foto" id="foto"
+              <input [(ngModel)]='user.foto' class="form-control corfundol shadow mb-0 rounded border border-dark" type="text" name="foto" id="foto"
                placeholder="Link da sua foto">
             </div>
             <br>
             <div class="form-group">
               <label for="senha">Senha</label>
-              <input (input)='confirmSenha($event)' class="form-control corfundol border border-dark" type="password" name="senha"
+              <input (input)='confirmSenha($event)' class="form-control corfundol shadow mb-0 rounded border border-dark" type="password" name="senha"
                id="senha" placeholder="Sua senha">
             </div>
             <br>
             <div class="form-group">
               <label for="confirmSenha">Confirmar Senha</label>
-              <input [(ngModel)]='user.senha' class="form-control corfundol border border-dark" type="password"
+              <input [(ngModel)]='user.senha' class="form-control corfundol shadow mb-0 rounded border border-dark" type="password"
                name="confirmSenha" id="confirmSenha"
                 placeholder="Confirme sua senha">
             </div>
